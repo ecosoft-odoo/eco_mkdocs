@@ -3,7 +3,7 @@
 site_name: Your Project Name
 copyright: Copyright &copy; 2021 Ecosoft Co., Ltd.
 repo_url: https://github.com/ecosoft-odoo/eco_mkdocs  # Add edit on github link
-edit_uri: edit/main/docs
+edit_uri: edit/master/docs  # Point to master branch
 theme: readthedocs
 nav:  # Content organization
     - Home: index.md
@@ -11,14 +11,14 @@ nav:  # Content organization
     - Some More Topics:
         - Topic 1: some_topic/topic1.md
 markdown_extensions:
-    - toc:
-        permalink: "#"
-    - admonition   # Make internal links for hearders H1, H2, etc.
+    - toc:  # For link for hearders, H1, H2, etc.
+        permalink: "#"  
+    - admonition   # For !!! Note box
 plugins:
     - search
     - with-pdf:  # More params -> https://pypi.org/project/mkdocs-with-pdf/
         cover_title: My Project Documentation
-        cover_subtitle: Odoo ERP V14 for Some Company
+        cover_subtitle: Odoo ERP for Some Company
         cover_logo: ecosoft.png
         author: Kitti U. <kittiu@ecosoft.co.th>
 
