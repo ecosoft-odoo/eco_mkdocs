@@ -47,3 +47,7 @@ Markdown Cheatsheet:
 * The `site` folder is ignored by `.gitignore`
 * Just push to master barnch, github action in `.github/workflows/ci.yml` will auto generate `site` folder into branch `gh-pages`.
 * If you enable **Github Pages** on branch `gh-pages`, you will get the document site at `https://<my_account>.github.io/<my_project>`
+
+**Remarks:**
+
+This document template can be viewed here -> https://ecosoft-odoo.github.io/eco_mkdocs/
