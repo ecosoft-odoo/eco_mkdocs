@@ -11,7 +11,7 @@ To understand how mkdocs works, following few line of code (in linux) will do.
 $ pip3 install mkdocs               # Install the package
 $ cd ~                              # Go to home directory
 $ mkdocs new my-doc-project         # Initial the document project folder
-$ cd my-project                     # Do to project directory, now a sample index.md is created
+$ cd my-doc-project                 # Do to project directory, now a sample index.md is created
 $ mkdocs build                      # OR build the site folder, which can be deployed in a web server
 $ mkdocs serve                      # Start the test server, to see how it looks at http://localhost:8000/
 ```
